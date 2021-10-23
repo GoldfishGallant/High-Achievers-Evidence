@@ -21,9 +21,6 @@ const server = http.createServer(function(req, res) {
         case '/calculator':
             page = fs.readFile(__dirname + '/calculator.html', fsCallback);
         break;
-        case '/table-tennis':
-            page = fs.readFile(__dirname + '/table-tennis.html', fsCallback);
-        break;
         case '/home':   
             page = fs.readFile(__dirname + '/index.html', fsCallback);
         break;     
