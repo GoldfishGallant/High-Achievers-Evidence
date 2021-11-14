@@ -12,7 +12,6 @@ def main(x):
         return int(x)
 
 while True:
-    time.sleep(0.05)
     print(start_pos)
     if start_pos in knowns:
         start_pos -= 1
